@@ -26,7 +26,7 @@ def __check_stdin(strip_newline_stdin=False):
                 out_list.append(line.strip())
             else:
                 out_list.append(line)
-        print(out_list)
+        #print(out_list)
         return out_list
     else:
         return False
