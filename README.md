@@ -30,8 +30,8 @@ The scripts are all located in the `toolkit` directory
 
 |Script name|Function|
 |---|---|
-|base64-encode.py|base64 encoder|
-|base64-decode.py|base64 decoder|
+|base64_encode.py|base64 encoder|
+|base64_decode.py|base64 decoder|
 |file_modified.py|shows the last modified date for input file(s)|
 |hashes.py|computes various hash functions in input|
 |network_info.py|returns useful network info for the current host|
