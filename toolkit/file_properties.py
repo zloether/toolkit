@@ -1,6 +1,4 @@
 #!/usr/bin/env python
-# file_modified.py
-# takes input file or string and returns file modified date
 
 # -----------------------------------------------------------------------------
 # Imports
@@ -21,6 +19,7 @@ import time
 time_format = "%a, %d %b %Y %H:%M:%S"
 
 
+
 # -----------------------------------------------------------------------------
 # Input should be a list of files or directories
 # -----------------------------------------------------------------------------
@@ -33,6 +32,10 @@ def file_modified(input_value):
             print(str(i) + '\t' + formatted_time)
         else:
             print('Unable to find ' + str(i))
+    
+
+def file_properties(input_value):
+    print(input_value.stat())
 
 
 
