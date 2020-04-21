@@ -6,7 +6,7 @@ import time
 from datetime import datetime
 
 
-answer = 'b*0RaZ7'
+answer = 'buojudkle'
 
 
 
@@ -59,4 +59,4 @@ def __get_char_set(lower, upper, digits, special, custom):
 
 
 if __name__ == '__main__':
-    brute(max_length=8, lower=True, upper=True, digits=True, special=True)
+    brute(max_length=10, lower=True, upper=False, digits=False, special=False)
